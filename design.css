@@ -315,7 +315,7 @@ main{
 .menul:hover{
     text-decoration: underline;
 }
-@media (max-width:1400px){
+@media (max-width:900px){
 
     .back .compra{
         display: none;
