@@ -316,41 +316,16 @@ main{
     text-decoration: underline;
 }
 @media (max-width:1400px){
-    body{
-        width: 100%;
-    }
-    header{
-        max-width: 100%;
-    }
-    .back{
-        position: relative;
-    }
-    .imgback img{
-        width: 100%;
-    }
-    .textos h2{
-        font-size: 40px;
-    }
-    .textos h6{
-        font-size: 20px;
-    }
-    .textos h5{
-        font-size: 10px;
-    }
-    .compra{
-        font-size: 30px;
+
+    .back .compra{
+        display: none;
     }
     .back .p{
-        font-size: 12px;
-    }
-    .back .textos{
-        top: 0;
-        left: 0%;
-        position: absolute;
-        height: 10%;
-        width: 50%;
+        display: none;
     }
 }
+
+
 @media screen and (max-width:500px){
     .compra{
         display: none;
