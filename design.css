@@ -326,7 +326,7 @@ main{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:400px){
     .compra{
         display: none;
         margin: 0;
